@@ -1,13 +1,13 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Business Idea Generator</title>
-        <meta name="description" content="AI-powered business idea generation" />
+        <title>Healthcare Consultation Assistant</title>
+        <meta name="description" content="AI-powered medical consultation summaries" />
       </Head>
-      <body className="antialiased">
+      <body>
         <Main />
         <NextScript />
       </body>
